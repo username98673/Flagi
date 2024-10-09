@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void zlaOdpowiedz(View view) {
 
-        Toast.makeText(this, R.string.podsumowanie, Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, R.string.biden, Toast.LENGTH_SHORT).show();
 
     }
 
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         view.setVisibility(View.INVISIBLE);
         licznikZlych++;
         if (licznikZlych==4){
-            textView.setText("To jest flaga Polski");
+            textView.setText(R.string.podsumowanie);
         }
 
     }
