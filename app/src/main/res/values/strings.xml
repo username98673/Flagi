@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Flagi</string>
+    <string name="polecenie">Ktore kolory nie naleza do flagi Polski?</string>
+    <string name="podsumowanie">To jest flaga Poslki</string>
 </resources>
